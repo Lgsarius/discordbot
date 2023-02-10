@@ -249,3 +249,20 @@
 2023-02-10 23:40:00.183  INFO 8320 --- [XNIO-1 task-111] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
 2023-02-10 23:40:00.184  INFO 8320 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "288782681255444482", "track": "QAAAfwIAG0JpbGx5IEpvZWwgLSBWaWVubmEgKEF1ZGlvKQAKQmlsbHkgSm9lbAAAAAAAA0+oAAt3Y2NSaWYyRGFHcwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PXdjY1JpZjJEYUdzAAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false}
 2023-02-10 23:40:00.186  INFO 8320 --- [XNIO-1 task-112] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2023-02-10 23:41:36.259  INFO 8320 --- [XNIO-1 task-113] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:Eminence Front The Who"
+2023-02-10 23:41:36.698  INFO 8320 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: Eminence Front The Who
+2023-02-10 23:43:36.740  INFO 8320 --- [XNIO-1 task-115] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2023-02-10 23:43:36.741  INFO 8320 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "288782681255444482", "track": "QAAAbgIADkVtaW5lbmNlIEZyb250AAZUaGVXaG8AAAAAAAU0CAALeE9ES19Pd3hwSE0AAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj14T0RLX093eHBITQAHeW91dHViZQAAAAAAAAAA", "noReplace": false}
+2023-02-10 23:43:36.743  INFO 8320 --- [XNIO-1 task-116] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2023-02-10 23:45:23.890  INFO 8320 --- [XNIO-1 task-117] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:West end girls Pet shop boys"
+2023-02-10 23:45:24.363  INFO 8320 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: West end girls Pet shop boys
+2023-02-10 23:49:17.495  INFO 8320 --- [XNIO-1 task-119] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2023-02-10 23:49:17.496  INFO 8320 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "288782681255444482", "track": "QAAApgIAP1BldCBTaG9wIEJveXMgLSBXZXN0IEVuZCBHaXJscyAoT2ZmaWNpYWwgVmlkZW8pIFtIRCBSRU1BU1RFUkVEXQANUGV0IFNob3AgQm95cwAAAAAAA5X4AAtwM2oyTllaOEZLcwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PXAzajJOWVo4RktzAAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false}
+2023-02-10 23:49:17.498  INFO 8320 --- [XNIO-1 task-120] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2023-02-10 23:50:49.281  INFO 8320 --- [XNIO-1 task-121] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:feel good inc gorillaz"
+2023-02-10 23:50:49.821  INFO 8320 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: feel good inc gorillaz
+2023-02-10 23:52:14.022  INFO 8320 --- [XNIO-1 task-123] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:Midnight City M83"
+2023-02-10 23:52:14.444  INFO 8320 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: Midnight City M83
+2023-02-10 23:53:12.227  INFO 8320 --- [XNIO-1 task-125] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2023-02-10 23:53:12.228  INFO 8320 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "288782681255444482", "track": "QAAAjAIAKkdvcmlsbGF6IC0gRmVlbCBHb29kIEluYy4gKE9mZmljaWFsIFZpZGVvKQAIR29yaWxsYXoAAAAAAAPgMAALSHlITnVWYVpKLWsAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1IeUhOdVZhWkotawAHeW91dHViZQAAAAAAAAAA", "noReplace": false}
+2023-02-10 23:53:12.230  INFO 8320 --- [XNIO-1 task-126] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
