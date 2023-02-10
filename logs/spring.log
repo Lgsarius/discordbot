@@ -9,3 +9,16 @@
 2023-02-11 00:08:06.100  INFO 8320 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "288782681255444482", "track": "QAAAlAIALFBpbGZpbmdlcmRhbnNlbiAoRkxJUCBGTEFQKSAtIE9mZmljaWFsIFZpZGVvAA5TaWd1cmQgQmFycmV0dAAAAAAAAoCgAAs3ZGc5TW9UcjFBZwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PTdkZzlNb1RyMUFnAAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false}
 2023-02-11 00:08:06.101  INFO 8320 --- [XNIO-1 task-8] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
 2023-02-11 00:10:50.362  INFO 8320 --- [XNIO-1 task-9] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2023-02-11 00:13:26.487  INFO 8320 --- [XNIO-1 task-10] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:in meiner hose wohnt ein iltis"
+2023-02-11 00:13:26.875  INFO 8320 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: in meiner hose wohnt ein iltis
+2023-02-11 00:13:26.879  INFO 8320 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "288782681255444482", "track": "QAAAiwIAHkluIG1laW5lciBIb3NlIHdvaG50IGVpbiBJbHRpcwATRGllIEItbWlnb3MgLSBUb3BpYwAAAAAAAzBoAAt1WDY1alE2XzRLRQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PXVYNjVqUTZfNEtFAAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false}
+2023-02-11 00:13:26.881  INFO 8320 --- [XNIO-1 task-12] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2023-02-11 00:16:25.883  INFO 8320 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : {"op": "stop", "guildId": "288782681255444482"}
+2023-02-11 00:16:25.884  INFO 8320 --- [XNIO-1 task-13] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2023-02-11 00:16:51.732  INFO 8320 --- [XNIO-1 task-14] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:Conquer from Within Golpe"
+2023-02-11 00:16:52.075  INFO 8320 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: Conquer from Within Golpe
+2023-02-11 00:16:52.078  INFO 8320 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "288782681255444482", "track": "QAAAiQIAIkNvbnF1ZXIgRnJvbSBXaXRoaW4gKE9yaWdpbmFsIE1peCkADUdvbHBlIC0gVG9waWMAAAAAAAV6WAALclZJVkZwNWNzdUkAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1yVklWRnA1Y3N1SQAHeW91dHViZQAAAAAAAAAA", "noReplace": false}
+2023-02-11 00:16:52.080  INFO 8320 --- [XNIO-1 task-16] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2023-02-11 00:17:53.236  INFO 8320 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : {"op": "destroy", "guildId": "288782681255444482"}
+2023-02-11 00:17:53.278  INFO 8320 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:56495 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 60 seconds with key 2c1d4cc99c59251b
+2023-02-11 00:18:53.286  INFO 8320 --- [pool-7-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
