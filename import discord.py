@@ -4,12 +4,12 @@ import wavelink
 
 client = commands.Bot(command_prefix="!", intents=discord.Intents.all())
 
-
 class CustomPlayer(wavelink.Player):
 
     def __init__(self):
         super().__init__()
         self.queue = wavelink.Queue()
+
 
 
 # HTTPS and websocket operations
@@ -47,7 +47,7 @@ async def on_wavelink_track_end(player: CustomPlayer, track: wavelink.Track, rea
 
 @client.command()
 async def connect(ctx):
-    vc = ctx.voice_client 
+    vc = ctx.voice_client # represents a discord voice connection
     try:
         channel = ctx.author.voice.channel
     except AttributeError:
@@ -67,31 +67,7 @@ async def disconnect(ctx):
     else:
         await ctx.send("The bot is not connected to a voice channel.")
 
-@commands.command()
-async def play(self, ctx, *, query):
-    #await self.join(ctx)
-    await asyncio.sleep(.5)
-    player = self.bot.music.player_manager.create(ctx.guild.id)
 
-    if not url_rx.match(query):
-        query = f"ytsearch:{query}"
-
-    results = await player.node.get_tracks(query)
-    tracks = results["tracks"]
-    print(results)
-    if results["loadType"] == "PLAYLIST_LOADED":
-        i = 0
-        for track in tracks:
-            i += 1
-            player.add(requester=ctx.author.id, track=track)
-        await ctx.send(f"Enqueued Playlist with {i} songs!")
-    else:
-        track = tracks[0]
-        await ctx.send(f"💽 Enqueued {track['info']['title']}")
-        player.add(requester=ctx.author.id, track=track)
-
-    if not player.is_playing:
-        await player.play()
 @client.command()
 async def play(ctx, *, search: wavelink.YouTubeTrack):
     vc = ctx.voice_client
@@ -168,6 +144,5 @@ async def play_error(ctx, error):
         await ctx.send("Could not find a track.")
     else:
         await ctx.send("Please join a voice channel.")
-        
-        
+
 client.run('MTA3MjI0NTQzMzM2MDk3ODAyMA.GLnQvy.9STWGKg4PFlDJoBOV8301Yilu6_s3goSoYALIw')
