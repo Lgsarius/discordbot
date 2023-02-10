@@ -1,2 +1,2 @@
 
-worker: python3 playdiscord.py
+worker: python playdiscord.py
